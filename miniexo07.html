@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mini exo : 07</title>
+    <style>
+        body{
+            background: aliceblue;
+        }
+        fieldset{
+            border: 1px dashed black;
+        }
+        form{
+            background: forestgreen;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Un formulaire</h1>
+    <form>
+        <fieldset>
+            <legend>Votre Nom et Prénom</legend>
+            <label for="First_Name">Prénom</label>
+            <input type="text" name="First_Name" placeholder="Ex:Martin">
+            <label for="Last_Name">Nom</label>
+            <input type="text" name="Last_Name" placeholder="Ex:Swagg"></inp>
+        </fieldset>
+        <fieldset>
+            <legend>Coordonnées</legend>
+            <label for="Adress">Adresse</label>
+            <input type="text" name="Adress" placeholder="Ex:4 rue jean-beausir">
+            <label for="Email">Votre boîte mail</label>
+            <input type="Email" name="Email" placeholder="Ex:jeangy-75@bgdu75.com">
+            <label for="Tel">téléphone</label>
+            <input type="Tel" name="Tel" placeholder="Ex::0751458545">
+        </fieldset>
+        <fieldset>
+            <legend>Vous aimez</legend>
+            <label for="JourPrefere">Votre jour préférè</label>
+            <select name="JourPrefere">
+                <option value="Lundi">Lundi</option>
+                <option value="Mardi">Mardi</option>
+                <option value="Mercredi">Mercredi</option>
+                <option value="Jeudi">Jeudi</option>
+                <option value="Vendredi">Vendredi</option>
+                <option value="Samedi">Samedi</option>
+                <option value="Dimanche">Dimanche</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>A propos de vous</legend>
+            <label for="Genre">Votre genre</label>
+            <input type="radio" name="Genre" value="male" checked> Male
+            <input type="radio" name="Genre" value="femelle" checked> Femelle
+        </fieldset>
+        <fieldset>
+            <legend>Vous êtes</legend>
+            <label for="Fumeur"></label>
+            <input type="checkbox" name="Fumeur" value="Fumeur"> Fumeur
+            <label for="alchoolique"></label>
+            <input type="checkbox" name="alchoolique" value="alchoolique"> alchoolique
+            <label for="Sportif"></label>
+            <input type="checkbox" name="Sportif" value="Sportif"> Sportif
+            <label for="Grognon"></label>
+            <input type="checkbox" name="Grognon" value="Grognon"> Grognon
+        </fieldset>
+        <fieldset>
+            <legend>Votre commentaire</legend>
+            <label for="message">votre messsage</label>
+            <textarea name="message" cols="30" rows="10">Dites-nous en un peu plus si vous le souhaitez</textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
