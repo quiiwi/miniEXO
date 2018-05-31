@@ -1,0 +1,24 @@
+body{
+    background: black;
+    color: aliceblue;
+}
+div{
+    background: red;
+    margin-bottom: 10px;
+}
+p{
+    background: yellow;
+    color: rgb(179, 179, 4);
+}
+.displaynone{
+    display: none;
+}
+.displayinline{
+    display: inline;
+}
+.displayblock {
+    display: block;
+}
+.displayinline_block{
+    display: inline-block;
+}
