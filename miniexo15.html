@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini exo : 12</title>
+    <style>
+        .vert{
+            background:green;
+        }
+        .orange{
+            background: orange;
+        }
+        .bleu{
+            background: lightblue;
+        }
+        .centre_lineheight{
+            height: 300px;
+            line-height: 300px;
+        }
+        .centre{
+            padding: 70px 0;
+        }
+        /* s'il y a plusieurs lignes ajoutons le code suivant au p */
+        .centre p{
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+   <h2>Centré verticalement en utilisant <code>padding</code></h2>
+   <div class="centre_padding bleu">
+       <p>Je suis centré verticalement</p>
+   </div>
+<!-- utilisation de line-height avec une valeur égale à la heuteur du bloc -->
+   <div class="centre_lineheight orange">
+        <p>Je suis centré verticalement</p>
+   </div>
+   <h2> Et s'il y a plusieurs éléments ?</h2>
+   <div class="centre vert">
+       <p>je suis centré verticalement</p>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum quidem, nemo quam architecto molestiae provident exercitationem fuga illum? Harum quidem molestias eaque libero aut quasi neque ea dolore fugit earum?
+       Earum eum ad minima sequi quos enim voluptas veritatis quasi inventore adipisci molestiae facere assumenda aperiam perferendis reprehenderit necessitatibus praesentium, officia odit accusantium cupiditate harum incidunt? Corporis itaque qui a!
+       Sunt eum quisquam eaque repellat, laboriosam quod ea? Quae nam atque illum consectetur impedit natus at sequi similique incidunt quam quasi deserunt id, tenetur laudantium suscipit repellat nobis, mollitia autem.
+       Rem, quo. Iusto odio optio quia error earum est necessitatibus natus impedit animi reiciendis praesentium eum blanditiis illo iste cupiditate aliquid minus tempora placeat cum, aut aspernatur. Itaque, impedit facere.</p>
+
+   </div>
+</body>
+</html>

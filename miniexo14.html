@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mini exo : 12</title>
+    <style>
+        
+        
+            overflow: auto;
+        }
+        .clearright{
+            clear: right;
+        }
+    </style>
+</head>
+<body>
+   <h2>Dans cet exemple l'image est plus grande que l'élément qui la contient, et elle flotte donc elle sort du block</h2>
+   <div class="bleu">
+       <!-- l'image est dans la div mais elle est plus grande et donne l'impression de sortir de la div -->
+       <img src="img/montagne.jpg" alt="montagne" class="image1">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iusto earum veniam vitae rem maxime ab sint, velit libero ut nulla perspiciatis perferendis laboriosam, harum magnam odit eveniet necessitatibus tenetur.</p>
+   </div>
+   <p class="clearright">On ajoute une class clearfix avec overflow: auto à l'élément pour régler le problème</p>
+   <div class=" orange clearfix">
+        <img src="img/montagne.jpg" alt="montagne" class="image2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi iusto earum veniam vitae rem maxime ab sint, velit libero ut nulla perspiciatis perferendis laboriosam, harum magnam odit eveniet necessitatibus tenetur.</p>
+   </div>
+</body>
+</html>
